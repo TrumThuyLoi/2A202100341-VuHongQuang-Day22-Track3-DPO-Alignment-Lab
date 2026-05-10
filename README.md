@@ -262,6 +262,7 @@ Full provocations: [`BONUS-CHALLENGE.md`](BONUS-CHALLENGE.md) (tiếng Việt) �
 **Submission Options A / B / C** (cùng convention với Day 21):
 - **A — Lightweight ZIP** (default): GitHub repo + executed notebooks + screenshots + REFLECTION
 - **B — Professional** (+5 bonus): A + adapters pushed to HuggingFace Hub via `huggingface-cli upload`
+- Hugging Face model: https://huggingface.co/vu-hong-quang/lab22-dpo-vn
 - **C — Code-only**: Repo + report, không weights (cho học viên hết storage Colab)
 
 ---

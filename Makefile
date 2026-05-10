@@ -10,8 +10,8 @@ JUPYTER  := $(VENV)/bin/jupyter
 
 # If running on Colab there's no venv — fall back to system python.
 ifeq ($(wildcard $(PY)),)
-  PY := python
-  PIP := pip
+	PY := $(shell command -v python3 2>/dev/null || command -v python)
+	PIP := $(shell command -v pip3 2>/dev/null || command -v pip)
   JUPYTEXT := jupytext
   PYTEST := pytest
   JUPYTER := jupyter
